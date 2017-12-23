@@ -243,20 +243,9 @@ function buildAndPostReport () {
     })
     .catch(err => {
       console.error('ERROR', err);
-      // buildAndPostReport();
     });
 
 }
 
-// async function recurse () { 
-//   var count = 0;
-//   while (true) {
-//     count++;
-//     console.log('ATTEMPT #', count);
-//     await buildAndPostReport();  
-//   }
-  
-// }
-
 buildAndPostReport();
-// recurse();
+
