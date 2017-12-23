@@ -1,0 +1,26 @@
+{
+  "name": "labyrinth",
+  "version": "1.0.0",
+  "description": "##Installation  > git clone https://github.com/Victorkjngo/labyrinth.git labyrinth_victor_ngo; > cd labyrinth_victor_ngo; > npm i;",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victorkjngo/labyrinth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victorkjngo/labyrinth/issues"
+  },
+  "homepage": "https://github.com/Victorkjngo/labyrinth#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "underscore": "^1.8.3"
+  }
+}
